@@ -55,9 +55,17 @@ div#formulario > p {
 form > div.campo {
     text-align: center;
     margin: 5px 0px;
+    size: 1em;
+    
 }
 div.campo label {
     display: none;
+}
+div.campo > i {
+    padding: 5px;
+}
+div.campo > input {
+    transform: translateY(-7px);
 }
 form > input[type=submit] {
     display: block;
